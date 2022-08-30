@@ -3,21 +3,114 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* background-color: #f6f8f9; */
 }
 
 .container{
     height: 200px;
-    position: relative; 
-    text-align: center;
+    padding-left: 20%;
+    padding-top: 5%;
+    position:relative; 
+    text-align: justify;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* HEADER */
 
+#logo{
+    line-height: 3em; 
+    vertical-align: middle; 
+
+}
 
 #title{
+    vertical-align: middle;
     height: 50px;
     font-size: 40px;
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAIN */
+
+main div{
+    padding-bottom: 5%;
+}
+
+button{
+    color: white;
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    border-radius: 7%;
+    padding: 1%;
+}
+
+.selection{
+    font-size: 12px;
+    color: lightgrey;
+    border: lightgray solid 1px;
+    border-radius: 7%;
+    padding: 1%;
+}
+
+/* todo list */
+
+.todo{
+    list-style-type: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.pcheck{
+    color: green;
+    border: solid green 2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: center;
+    display: inline-block;
+}
+
+.ncheck{
+    color: red;
+    border: solid red 2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: center;
+    display: inline-block;
+}
+
+.Blabel{
+    font-size: small;
+    color: white;
+    background-color: #47adf1;
+    border: 1px solid ;
+    border-radius: 30%;
+    padding: 1%;
+}
+
+.Vlabel{
+    font-size: small;
+    color: white;
+    background-color: violet;
+    border: 1px solid ;
+    border-radius: 30%;
+    padding: 1%;
+}
+
+.Glabel{
+    font-size: small;
+    color: white;
+    background-color: green;
+    border: 1px solid ;
+    border-radius: 30%;
+    padding: 1%;
+}
+
+.Plabel{
+    font-size: small;
+    color: white;
+    background-color: pink;
+    border: 1px solid ;
+    border-radius: 30%;
+    padding: 1%;
 }
