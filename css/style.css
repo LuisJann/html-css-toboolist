@@ -5,13 +5,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
 .container{
     height: 200px;
     padding-left: 20%;
     padding-top: 5%;
     position:relative; 
     text-align: justify;
-    background-color: white;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -58,6 +62,7 @@ button{
     padding: 1%;
 }
 
+
 /* todo list */
 
 .todo{
@@ -71,20 +76,24 @@ li{
 }
 
 .pcheck{
+    line-height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     color: green;
     border: solid green 2px;
     border-radius: 50%;
     text-align: center;
-    line-height: center;
     display: inline-block;
 }
 
 .ncheck{
+    line-height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     color: red;
     border: solid red 2px;
     border-radius: 50%;
     text-align: center;
-    line-height: center;
     display: inline-block;
 }
 
