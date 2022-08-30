@@ -10,7 +10,7 @@ body{
 
 .container{
     height: 200px;
-    padding-left: 30%;
+    padding-left: 20%;
     padding-top: 5%;
     position:relative; 
     text-align: justify;
@@ -44,11 +44,11 @@ header{
 /* MAIN */
 
 .background{
-    width:500px;
+    width: 800px;
     height: 600px;
     background-color: white;
-    padding-left: 10px;
-    padding-top: 20px;
+    padding-left: 50px;
+    padding-top: 40px;
 }
 
 main div{
@@ -56,8 +56,17 @@ main div{
 }
 
 hr{
-    border: lightgray solid 1px;
-    width: 300px;
+    border: #f6f8f9 solid 1px;
+    width: 900px;
+}
+
+.BB{
+    width: 800px;
+    height: 60px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 50px;
+
 }
 
 button{
