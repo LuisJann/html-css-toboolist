@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background-color: #f6f8f9;
-}
+} */
 
 .container{
     height: 200px;
@@ -24,6 +24,7 @@ body{
 #logo{
     line-height: 3em; 
     vertical-align: middle; 
+    padding: 5px;;
 
 }
 
