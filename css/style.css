@@ -3,4 +3,21 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    /* background-color: #f6f8f9; */
+}
+
+.container{
+    height: 200px;
+    position: relative; 
+    text-align: center;
+}
+
+/* HEADER */
+
+
+#title{
+    height: 50px;
+    font-size: 40px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
