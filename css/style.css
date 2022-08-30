@@ -39,6 +39,7 @@ main div{
 
 hr{
     border: lightgray solid 1px;
+    width: 500px;
 }
 
 button{
