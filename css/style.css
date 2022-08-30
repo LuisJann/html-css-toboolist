@@ -4,22 +4,27 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
-/* body{
+body{
     background-color: #f6f8f9;
-} */
+}
 
 .container{
     height: 200px;
-    padding-left: 20%;
+    padding-left: 30%;
     padding-top: 5%;
     position:relative; 
     text-align: justify;
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* HEADER */
+
+header{
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+
 
 #logo{
     line-height: 3em; 
@@ -38,13 +43,21 @@
 
 /* MAIN */
 
+.background{
+    width:500px;
+    height: 600px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
 main div{
     padding-bottom: 5%;
 }
 
 hr{
     border: lightgray solid 1px;
-    width: 500px;
+    width: 300px;
 }
 
 button{
