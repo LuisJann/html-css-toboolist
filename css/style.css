@@ -103,7 +103,7 @@ li{
     width: 1.5rem;
     height: 1.5rem;
     color: green;
-    border: solid green 2px;
+    border: solid green 1px;
     border-radius: 50%;
     text-align: center;
     display: inline-block;
@@ -114,7 +114,7 @@ li{
     width: 1.5rem;
     height: 1.5rem;
     color: red;
-    border: solid red 2px;
+    border: solid red 1px;
     border-radius: 50%;
     text-align: center;
     display: inline-block;
@@ -124,8 +124,7 @@ li{
     font-size: small;
     color: white;
     background-color: #47adf1;
-    border: 1px solid ;
-    border-radius: 30%;
+    border-radius: 10px;
     padding: 1%;
 }
 
@@ -133,8 +132,7 @@ li{
     font-size: small;
     color: white;
     background-color: violet;
-    border: 1px solid ;
-    border-radius: 30%;
+    border-radius: 10px;
     padding: 1%;
 }
 
@@ -142,8 +140,7 @@ li{
     font-size: small;
     color: white;
     background-color: green;
-    border: 1px solid ;
-    border-radius: 30%;
+    border-radius: 10px;
     padding: 1%;
 }
 
@@ -151,7 +148,6 @@ li{
     font-size: small;
     color: white;
     background-color: pink;
-    border: 1px solid ;
-    border-radius: 30%;
+    border-radius: 10px;
     padding: 1%;
 }
